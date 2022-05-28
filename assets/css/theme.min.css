@@ -3093,7 +3093,8 @@ textarea.form-control-lg {
 }
 
 @media (max-width: 768px) {
-    .internship-details {
+    .internship-details,
+    .fee-details {
         text-align: left;
     }
 }
