@@ -3069,19 +3069,33 @@ textarea.form-control-lg {
     width: 100%;
 }
 
-.imagegroup-one img {
+
+/* .imagegroup-one img {
     flex-shrink: 0;
     object-fit: cover;
     border: 3px solid white;
-}
+} */
 
 .imagegroup-one,
 .imagegroup-two {
-    animation: travel 20s ease-in-out infinite;
+    animation: travel 10s ease-in-out infinite;
 }
 
 .imagegroup-two {
-    animation: reverse-travel 20s ease-in-out infinite;
+    animation: reverse-travel 10s ease-in-out infinite;
+}
+
+@media (max-width: 768px) {
+    .imagegroup-one img,
+    .imagegroup-two img {
+        max-width: 100px;
+    }
+}
+
+@media (max-width: 768px) {
+    .internship-details {
+        text-align: left;
+    }
 }
 
 @keyframes travel {
