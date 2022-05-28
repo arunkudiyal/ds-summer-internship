@@ -3078,11 +3078,11 @@ textarea.form-control-lg {
 
 .imagegroup-one,
 .imagegroup-two {
-    animation: travel 10s ease-in-out infinite;
+    animation: travel 15s ease-in-out infinite;
 }
 
 .imagegroup-two {
-    animation: reverse-travel 10s ease-in-out infinite;
+    animation: reverse-travel 15s ease-in-out infinite;
 }
 
 @media (max-width: 768px) {
