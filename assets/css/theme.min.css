@@ -3099,10 +3099,18 @@ textarea.form-control-lg {
     }
 }
 
+
+/* .cta-para {
+    font-size: 1.7em;
+} */
+
 @media (max-width: 768px) {
     .internship-details,
     .fee-details {
         text-align: left;
+    }
+    .cta-para {
+        font-size: 1em;
     }
 }
 
